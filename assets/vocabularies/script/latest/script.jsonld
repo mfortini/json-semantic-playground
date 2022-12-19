@@ -1,0 +1,1288 @@
+{
+  "@context": {
+    "at": "http://publications.europa.eu/ontology/authority/",
+    "atold": "http://publications.europa.eu/resource/authority/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/HAN",
+      "@type": "skos:Concept",
+      "at:authority-code": "HAN",
+      "at:deprecated": "false",
+      "at:op-code": "HAN",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab23"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab24"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "HAN",
+      "dc:identifier": "HAN",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Han script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab23",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "500",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab24",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Hani",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/THAANA",
+      "@type": "skos:Concept",
+      "at:authority-code": "THAANA",
+      "at:deprecated": "false",
+      "at:op-code": "THAANA",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab55"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab56"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "THAANA",
+      "dc:identifier": "THAANA",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Thaana script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab55",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Thaa",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab56",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "170",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/DEVANAGARI",
+      "@type": "skos:Concept",
+      "at:authority-code": "DEVANAGARI",
+      "at:deprecated": "false",
+      "at:op-code": "DEVANAGARI",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab11"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab12"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "DEVANAGARI",
+      "dc:identifier": "DEVANAGARI",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Devanagari script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab11",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Deva",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab12",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "315",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/TELUGU",
+      "@type": "skos:Concept",
+      "at:authority-code": "TELUGU",
+      "at:deprecated": "false",
+      "at:op-code": "TELUGU",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab53"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab54"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "TELUGU",
+      "dc:identifier": "TELUGU",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Telugu script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab53",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "340",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab54",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Telu",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/SINHALA",
+      "@type": "skos:Concept",
+      "at:authority-code": "SINHALA",
+      "at:deprecated": "false",
+      "at:op-code": "SINHALA",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab47"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab48"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "SINHALA",
+      "dc:identifier": "SINHALA",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Sinhala script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab47",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "348",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab48",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Sinh",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/MYANMAR",
+      "@type": "skos:Concept",
+      "at:authority-code": "MYANMAR",
+      "at:deprecated": "false",
+      "at:op-code": "MYANMAR",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab45"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab46"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "MYANMAR",
+      "dc:identifier": "MYANMAR",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Myanmar script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab45",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "350",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab46",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Mymr",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/MALAYALAM",
+      "@type": "skos:Concept",
+      "at:authority-code": "MALAYALAM",
+      "at:deprecated": "false",
+      "at:op-code": "MALAYALAM",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab41"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab42"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "MALAYALAM",
+      "dc:identifier": "MALAYALAM",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Malayalam script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab41",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "347",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab42",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Mlym",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/HIRAGANA",
+      "@type": "skos:Concept",
+      "at:authority-code": "HIRAGANA",
+      "at:deprecated": "false",
+      "at:op-code": "HIRAGANA",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab29"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab30"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "HIRAGANA",
+      "dc:identifier": "HIRAGANA",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Hiragana script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab29",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Hira",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab30",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "410",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/ETHIOPIC",
+      "@type": "skos:Concept",
+      "at:authority-code": "ETHIOPIC",
+      "at:deprecated": "false",
+      "at:op-code": "ETHIOPIC",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab13"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab14"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "ETHIOPIC",
+      "dc:identifier": "ETHIOPIC",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Ethiopic script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab13",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "430",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab14",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Ethi",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/KANNADA",
+      "@type": "skos:Concept",
+      "at:authority-code": "KANNADA",
+      "at:deprecated": "false",
+      "at:op-code": "KANNADA",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab31"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab32"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "KANNADA",
+      "dc:identifier": "KANNADA",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Kannada script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab31",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "345",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab32",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Knda",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "atold:script",
+      "@type": "skos:ConceptScheme",
+      "at:prefLabel": {
+        "@language": "en",
+        "@value": "Script"
+      },
+      "at:table.id": "script",
+      "at:table.version.number": "20200624-0",
+      "owl:versionInfo": "20200624-0",
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Script"
+      }
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/OP_DATPRO",
+      "@type": "skos:Concept",
+      "at:op-code": "OP_DATPRO",
+      "atold:op-code": "OP_DATPRO",
+      "dc:identifier": "OP_DATPRO",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": [
+        {
+          "@language": "bg",
+          "@value": "НЕОКОНЧАТЕЛНИ ДАННИ"
+        },
+        {
+          "@language": "cs",
+          "@value": "Předběžné údaje"
+        },
+        {
+          "@language": "da",
+          "@value": "Midlertidige data"
+        },
+        {
+          "@language": "de",
+          "@value": "Vorläufige Daten"
+        },
+        {
+          "@language": "el",
+          "@value": "Προσωρινά δεδομένα"
+        },
+        {
+          "@language": "en",
+          "@value": "Provisional data"
+        },
+        {
+          "@language": "es",
+          "@value": "Datos provisionales"
+        },
+        {
+          "@language": "et",
+          "@value": "Esialgsed andmed"
+        },
+        {
+          "@language": "fi",
+          "@value": "Alustavat tiedot"
+        },
+        {
+          "@language": "fr",
+          "@value": "Données provisoires"
+        },
+        {
+          "@language": "ga",
+          "@value": "Sonraí sealadacha"
+        },
+        {
+          "@language": "hr",
+          "@value": "Privremeni podaci"
+        },
+        {
+          "@language": "hu",
+          "@value": "Ideiglenes adatok"
+        },
+        {
+          "@language": "it",
+          "@value": "Dati provvisori"
+        },
+        {
+          "@language": "lt",
+          "@value": "Laikinieji duomenys"
+        },
+        {
+          "@language": "lv",
+          "@value": "Provizoriski dati"
+        },
+        {
+          "@language": "mt",
+          "@value": "Dejta provviżorja"
+        },
+        {
+          "@language": "nl",
+          "@value": "Voorlopige gegevens"
+        },
+        {
+          "@language": "pl",
+          "@value": "Dane tymczasowe"
+        },
+        {
+          "@language": "pt",
+          "@value": "Dados provisórios"
+        },
+        {
+          "@language": "ro",
+          "@value": "Date provizorii"
+        },
+        {
+          "@language": "sk",
+          "@value": "Predbežné údaje"
+        },
+        {
+          "@language": "sl",
+          "@value": "Začasni podatki"
+        },
+        {
+          "@language": "sv",
+          "@value": "Tillfälliga uppgifter"
+        }
+      ]
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/LATIN",
+      "@type": "skos:Concept",
+      "at:authority-code": "LATIN",
+      "at:deprecated": "false",
+      "at:op-code": "LATIN",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab39"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab40"
+        }
+      ],
+      "at:start.use": "1952-07-23",
+      "atold:op-code": "LATIN",
+      "dc:identifier": "LATIN",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Latin script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab39",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Latn",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab40",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "215",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/LAO",
+      "@type": "skos:Concept",
+      "at:authority-code": "LAO",
+      "at:deprecated": "false",
+      "at:op-code": "LAO",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab37"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab38"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "LAO",
+      "dc:identifier": "LAO",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Lao script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab37",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "356",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab38",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Laoo",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/TIBETAN",
+      "@type": "skos:Concept",
+      "at:authority-code": "TIBETAN",
+      "at:deprecated": "false",
+      "at:op-code": "TIBETAN",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab59"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab60"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "TIBETAN",
+      "dc:identifier": "TIBETAN",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Tibetan script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab59",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Tibt",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab60",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "330",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/GEORGIAN",
+      "@type": "skos:Concept",
+      "at:authority-code": "GEORGIAN",
+      "at:deprecated": "false",
+      "at:op-code": "GEORGIAN",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab15"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab16"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "GEORGIAN",
+      "dc:identifier": "GEORGIAN",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Georgian script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab15",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "240",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab16",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Geor",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/HANGUL",
+      "@type": "skos:Concept",
+      "at:authority-code": "HANGUL",
+      "at:deprecated": "false",
+      "at:op-code": "HANGUL",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab25"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab26"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "HANGUL",
+      "dc:identifier": "HANGUL",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Hangul script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab25",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Hang",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab26",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "286",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/GUJARATI",
+      "@type": "skos:Concept",
+      "at:authority-code": "GUJARATI",
+      "at:deprecated": "false",
+      "at:op-code": "GUJARATI",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab19"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab20"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "GUJARATI",
+      "dc:identifier": "GUJARATI",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Gujarati script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab19",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Gujr",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab20",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "320",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/BENGALI",
+      "@type": "skos:Concept",
+      "at:authority-code": "BENGALI",
+      "at:deprecated": "false",
+      "at:op-code": "BENGALI",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab5"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab6"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "BENGALI",
+      "dc:identifier": "BENGALI",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Bengali script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab5",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Beng",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab6",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "325",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/GURMUKHI",
+      "@type": "skos:Concept",
+      "at:authority-code": "GURMUKHI",
+      "at:deprecated": "false",
+      "at:op-code": "GURMUKHI",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab21"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab22"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "GURMUKHI",
+      "dc:identifier": "GURMUKHI",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Gurmukhi script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab21",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Guru",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab22",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "310",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/ARMENIAN",
+      "@type": "skos:Concept",
+      "at:authority-code": "ARMENIAN",
+      "at:deprecated": "false",
+      "at:op-code": "ARMENIAN",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab3"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab4"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "ARMENIAN",
+      "dc:identifier": "ARMENIAN",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Armenian script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab3",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Armn",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab4",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "230",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/TIFINAGH",
+      "@type": "skos:Concept",
+      "at:authority-code": "TIFINAGH",
+      "at:deprecated": "false",
+      "at:op-code": "TIFINAGH",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab61"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab62"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "TIFINAGH",
+      "dc:identifier": "TIFINAGH",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Tifinagh script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab61",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Tfng",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab62",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "120",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/GREEK",
+      "@type": "skos:Concept",
+      "at:authority-code": "GREEK",
+      "at:deprecated": "false",
+      "at:op-code": "GREEK",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab17"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab18"
+        }
+      ],
+      "at:start.use": "1981-01-01",
+      "atold:op-code": "GREEK",
+      "dc:identifier": "GREEK",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Greek script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab17",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Grek",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab18",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "200",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/KATAKANA",
+      "@type": "skos:Concept",
+      "at:authority-code": "KATAKANA",
+      "at:deprecated": "false",
+      "at:op-code": "KATAKANA",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab33"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab34"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "KATAKANA",
+      "dc:identifier": "KATAKANA",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Katakana script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab33",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Kana",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab34",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "411",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/ARABIC",
+      "@type": "skos:Concept",
+      "at:authority-code": "ARABIC",
+      "at:deprecated": "false",
+      "at:op-code": "ARABIC",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab1"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab2"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "ARABIC",
+      "dc:identifier": "ARABIC",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Arabic script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab1",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "160",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab2",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Arab",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/BRAILLE",
+      "@type": "skos:Concept",
+      "at:authority-code": "BRAILLE",
+      "at:deprecated": "false",
+      "at:op-code": "BRAILLE",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab7"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab8"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "BRAILLE",
+      "dc:identifier": "BRAILLE",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Braille script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab7",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Brai",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab8",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "570",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/HEBREW",
+      "@type": "skos:Concept",
+      "at:authority-code": "HEBREW",
+      "at:deprecated": "false",
+      "at:op-code": "HEBREW",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab27"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab28"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "HEBREW",
+      "dc:identifier": "HEBREW",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Hebrew script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab27",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "125",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab28",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Hebr",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/KHMER",
+      "@type": "skos:Concept",
+      "at:authority-code": "KHMER",
+      "at:deprecated": "false",
+      "at:op-code": "KHMER",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab35"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab36"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "KHMER",
+      "dc:identifier": "KHMER",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Khmer script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab35",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Khmr",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab36",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "355",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/MONGOLIAN",
+      "@type": "skos:Concept",
+      "at:authority-code": "MONGOLIAN",
+      "at:deprecated": "false",
+      "at:op-code": "MONGOLIAN",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab43"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab44"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "MONGOLIAN",
+      "dc:identifier": "MONGOLIAN",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Mongolian script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab43",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "145",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab44",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Mong",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/TAGALOG",
+      "@type": "skos:Concept",
+      "at:authority-code": "TAGALOG",
+      "at:deprecated": "false",
+      "at:op-code": "TAGALOG",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab49"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab50"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "TAGALOG",
+      "dc:identifier": "TAGALOG",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Tagalog script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab49",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "370",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab50",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Tglg",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/TAMIL",
+      "@type": "skos:Concept",
+      "at:authority-code": "TAMIL",
+      "at:deprecated": "false",
+      "at:op-code": "TAMIL",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab51"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab52"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "TAMIL",
+      "dc:identifier": "TAMIL",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Tamil script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab51",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "346",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab52",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Taml",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/THAI",
+      "@type": "skos:Concept",
+      "at:authority-code": "THAI",
+      "at:deprecated": "false",
+      "at:op-code": "THAI",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab57"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab58"
+        }
+      ],
+      "at:start.use": "2012-07-05",
+      "atold:op-code": "THAI",
+      "dc:identifier": "THAI",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Thai script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab57",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "352",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab58",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Thai",
+      "dc:source": "iso-15924-alpha-4"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/script/CYRILLIC",
+      "@type": "skos:Concept",
+      "at:authority-code": "CYRILLIC",
+      "at:deprecated": "false",
+      "at:op-code": "CYRILLIC",
+      "at:op-mapped-code": [
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab9"
+        },
+        {
+          "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab10"
+        }
+      ],
+      "at:start.use": "2007-01-01",
+      "atold:op-code": "CYRILLIC",
+      "dc:identifier": "CYRILLIC",
+      "skos:inScheme": {
+        "@id": "atold:script"
+      },
+      "skos:prefLabel": {
+        "@language": "en",
+        "@value": "Cyrillic script"
+      }
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab9",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "220",
+      "dc:source": "iso-15924-num"
+    },
+    {
+      "@id": "_:n92521dfb4f0a4cce9a5e469b2d94cc6ab10",
+      "@type": "at:MappedCode",
+      "at:legacy-code": "Cyrl",
+      "dc:source": "iso-15924-alpha-4"
+    }
+  ]
+}
